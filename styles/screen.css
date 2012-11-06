@@ -1,0 +1,65 @@
+/* line 3, ../sass/screen.sass */
+* {
+  border: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 9, ../sass/screen.sass */
+body {
+  background: white;
+  color: black;
+  font: 62.5% "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 4em; }
+
+/* line 15, ../sass/screen.sass */
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, progress, section, summary, video {
+  display: block; }
+
+/* line 18, ../sass/screen.sass */
+h1 {
+  font-size: 4em; }
+
+/* line 21, ../sass/screen.sass */
+h2 {
+  font-size: 2em; }
+
+/* line 24, ../sass/screen.sass */
+p {
+  font-size: 1.6em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em; }
+
+/* line 29, ../sass/screen.sass */
+.filters {
+  font-size: 1.6em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em; }
+  /* line 34, ../sass/screen.sass */
+  .filters a {
+    display: block; }
+
+/* line 37, ../sass/screen.sass */
+ul {
+  border: 1px solid #999999;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+  /* line 43, ../sass/screen.sass */
+  ul li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    font-size: 5em;
+    font-weight: normal;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px; }
+    /* line 53, ../sass/screen.sass */
+    ul li.foo {
+      font-weight: bold; }
+    /* line 56, ../sass/screen.sass */
+    ul li.bar {
+      font-style: italic; }

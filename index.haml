@@ -1,0 +1,49 @@
+!!! 5
+%html{ :lang => 'en' }
+  %head
+    %title jQuery TickBack`
+    %meta{ :charset => 'utf-8' }
+    %meta{ :'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge' }
+    %link{ :rel => 'stylesheet', :media => 'screen,projection', :href => './styles/screen.css' }
+
+  %body
+    %h1 jQuery TickBack`
+
+    %p A jQuery plugin to animate the filtering of a list.
+
+    %p
+      %strong
+        %a{ :href => 'https://github.com/arjaneising/tickback' } See Github Repo…
+
+    %h2 Filters
+
+    .filters
+      %a{ :href => '#', :'data-filter' => 'foo' } Foo <small>Styled bold</small>
+      %a{ :href => '#', :'data-filter' => 'bar' } Bar <small>Styled italic</small>
+
+    %ul
+      %li.foo.bar
+        Z
+      %li.bar
+        B
+      %li
+        K
+      %li.foo.bar
+        D
+      %li.bar
+        W
+      %li.foo
+        F
+      %li.bar
+        G
+      %li.foo
+        H
+      %li.foo
+        I
+      %li
+        J
+
+    %script{ :src => 'scripts/jquery.js' }
+    %script{ :src => 'scripts/jquery.transit.js' }
+    %script{ :src => 'scripts/jquery.tickback.js' }
+    %script{ :src => 'scripts/demo.js' }

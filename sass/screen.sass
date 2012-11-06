@@ -1,0 +1,57 @@
+@import 'compass'
+
+*
+  border: 0
+  list-style: none
+  margin: 0
+  padding: 0
+
+body
+  background: #FFF
+  color: #000
+  font: 62.5% 'Helvetica Neue', Helvetica, Arial, sans-serif
+  padding: 4em
+
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, progress, section, summary, video
+  display: block
+
+h1
+  font-size: 4em
+
+h2
+  font-size: 2em
+
+p
+  font-size: 1.6em
+  line-height: 1.5em
+  margin-bottom: 1.5em
+
+.filters
+  font-size: 1.6em
+  line-height: 1.5em
+  margin-bottom: 1.5em
+
+  a
+    display: block
+
+ul
+  border: 1px solid #999
+  overflow: hidden
+  position: relative
+  width: 100%
+
+  li
+    +box-sizing(border-box)
+    float: left
+    font-size: 5em
+    font-weight: normal
+    height: 150px
+    margin: 5px
+    padding: 5px
+    width: 150px
+
+    &.foo
+      font-weight: bold
+
+    &.bar
+      font-style: italic
